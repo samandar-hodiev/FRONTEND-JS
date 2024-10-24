@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+     width: 1280px;
+    background-color: red;
+}
+
+
+header {
+    background-color: rgb(32, 25, 25);
+}
+.shrink{
+    transform: translateY(-120%);
+    height:1px;
+    overflow: hidden;
+}
+
+
+
+.nav__top{
+    background-color: rgba(7, 3, 238, 0.354);
+    padding: 32px 0;
+    transition:all 0.2s ease;
+}
+
+.nav__top p{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+
+.nav a img {
+    width: 40px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    list-style: none;
+}
+.hider{
+    transform: translateX(-120vw);
+}
+
+.nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.menuButton {
+    display: none;
+}
+
+.menuBtn {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menuBtn div {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    border-radius: 0 4px 0 4px;
+}
+
+
+
+
+
+
+
+
+
+main{
+    width: auto;
+    height: auto;
+    background-color: black;
+    padding: 4px;
+}
+
+
+
+main h6{
+    text-align: center;
+    font-size: 32px;
+    color:black;
+}
+
+main #intro{
+    width:100%;
+    height: 100vh;
+    background-color: lime;
+    padding: 400px;
+}
+
+
+main #about{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 0, 221);
+    padding: 400px;
+}
+
+
+main #service{
+    width: 100%;
+    height: 100%;
+    background-color:coral;
+    padding: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1280px) {
+    nav {
+        padding: 0 20px;
+    }
+
+ 
+}
+
+
+
+
+
+
+@media only screen and (max-width:800px){
+    main {
+        width: 100vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:575px) {
+    nav {
+        padding: 0 16px;
+    }
+
+    .menuButton {
+        display: block;
+        cursor: pointer;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 70px 0;
+        width: 100vw;
+        height: 400px;
+        background-color: rgb(32, 25, 25);
+        list-style: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background-image: url(./react-logo-1.png);
+        background-position: center;
+        background-blend-mode: color;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+}
+
+    .nav ul a {
+        color: rgba(255, 255, 255, 0.852);
+        text-decoration: none;
+        font-size:20px;
+    }
+}
+
+
+
+
+
+
+
+

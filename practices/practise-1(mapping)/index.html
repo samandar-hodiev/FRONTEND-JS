@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS | practice: 1</title>
+    <link rel="icon" href="./JavaScript-logo.png">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+     <header class="bg-black py-3">
+        <div class="container mx-auto sm:w-[1300px] w-auto ">
+            <nav class=" flex justify-between items-center md:px-0 lg:px-0  xl:px-0  2xl:px-0  sm:px-3 px-3 ">
+                <a href="#">
+                   <p class="text-yellow-300 font-extrabold text-2xl">JS</p>
+                </a>
+                <ul id="menu" class="text-yellow-100 bg-black  justify-between md:flex lg:flex xl:flex 2xl:flex block sm:block md:w-[56%] lg:w-[56%] xl:w-[56%] 2xl:w-[56%] w-[100%] absolute sm:absolute md:static lg:static xl:static 2xl:static  top-[77px] left-0 items-center text-center md:py-0 lg:py-0 xl:py-0 2xl:py-0 sm:py-6 py-6  duration-500">
+                    <li class="li">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="li">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="li">
+                        <a href="#">Service</a>
+                    </li>
+                    <li class="li">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                <select id="lang" class="p-1 bg-inherit w-auto outline-none border-none text-[16px] text-[gray] absolute sm:static md:static  lg:static xl:static 2xl:static right-[80px] px-[36px]">
+                    <option value="uz">uz</option>
+                    <option value="en">en</option>
+                    <option value="ru">ru</option>
+                    <option value="lang" selected disabled>lang</option>
+                </select>
+                <span id="menuBtn" class="sm:block md:hidden lg:hidden xl:hidden 2xl:hidden ">
+                    <i class="bx bx-menu-alt-left text-2xl text-white"></i>
+                </span>
+                
+            </nav>
+        </div>
+     </header>
+     <!--/header -->
+
+
+
+     <!-- intro -->
+     <div class="intro w-full h-[1200px] bg-gray-300 pt-[30px]">
+        <div class="container mx-auto sm:w-[1300px] w-auto">
+           <div id="intro" class="flex justify-between flex-wrap">
+            <!-- <div id="card" class="bg-blue-500 w-[300px] rounded h-[540px] p-3">
+                <img src="https://picsum.photos/id/120/300/400" alt="foto" class="rounded">
+                <div class="p-1">
+                    <h1 class="text-xl text-white">Card tittle</h1>
+                    <p class="text-sm text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam dolorum aliquid corporis?</p>
+                </div>
+            </div> -->
+           </div>
+        </div>
+      </div>
+     <!-- / intro -->
+
+
+     <!-- about -->
+     <div class="main w-full h-[1200px] bg-gray-500">
+        <div class="container mx-auto sm:w-[1300px] w-auto">
+            <div id="introCard" class="flex flex-wrap justify-between">
+                <!-- render -->
+
+
+
+            </div>
+        </div>
+      </div>
+     <!-- / about -->
+
+
+
+     <!-- info -->
+     <div class="about w-full h-[1200px] bg-gray-700">
+        <div class="container mx-auto sm:w-[1200px] w-auto">
+           <div id="info" class="flex justify-between flex-wrap">
+                <!-- render -->
+
+           </div>
+        </div>
+      </div>
+     <!-- / info -->
+
+
+
+
+       <!-- end -->
+       <div class=" w-full h-[1200px] bg-gray-700">
+        <div class="container mx-auto sm:w-[1200px] w-auto">
+           <div id="func" class="flex justify-between flex-wrap">
+                <!-- render -->
+
+           </div>
+        </div>
+      </div>
+     <!-- / end -->
+
+
+     <!-- footer -->
+      <footer class="bg-gray-900">
+        <div class="container mx-auto sm:w-[1300px] w-auto">
+            <div class="footer w-full h-[100%] flex items-center justify-center w-full h-[120px]">
+                <h3 class="text-white text-2xl">footer</h3>
+            </div>
+        </div>
+      </footer>
+     <!-- / footer -->
+
+
+
+
+</body>
+<script src="./lang.js"></script>
+<script src="./db.js"></script>
+<script src="./utils.js"></script>
+<script src="./app.js"></script>
+</html>
+
+
+
