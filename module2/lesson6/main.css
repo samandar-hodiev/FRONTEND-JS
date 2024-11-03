@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+.div{
+    border: 2px solid red;
+    padding: 30px;
+}
+
+.form{
+    border: 2px solid red;
+    padding: 30px;
+}
+
+.form button{
+    border: 2px solid red;
+    padding:8px 14px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+    display: flex;
+    padding: 10px;
+    gap:20px;
+    justify-content: center;
+    background-color: yellow;
+    flex-wrap: wrap;
+}
+
+.wrapper .box{
+    background-color: teal;
+    width: 230px;
+    height: 230px;
+    display: grid;
+    place-content: center;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+
+.wrapper .box button{
+    padding: 6px 12px;
+    background-color:lime;
+}
